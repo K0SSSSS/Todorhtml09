@@ -1,0 +1,24 @@
+.blue-block{
+    border: 3px solid blue;
+    width: 600px;
+    text-align: center;
+    margin: 30px auto;
+    background-color: rgb(31, 119, 234);
+    color: white;
+}
+.blue-block ul li, #orange-block ul li{
+    list-style: none;
+}
+#orange-block{
+    border-radius: 25px;
+    background: orangered;
+    width: 900px;
+    padding: 50px;
+    text-align: center;
+    margin: 50px auto;
+    color: aquamarine;
+}
+
+#orange-block a:visited{
+    color: chartreuse;
+}

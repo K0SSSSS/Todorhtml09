@@ -1,0 +1,28 @@
+ body{
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+ }
+ th, td{
+    border: 2px solid black;
+    padding: 10px;
+}
+table{
+    width: 50%;
+    margin: 100px auto;
+}
+table tr:nth-child(2n){
+    background-color: aqua;
+}
+table tr:nth-child(2n+1){
+    background-color: rgba(126, 127, 128, 0.722);
+}
+table td:nth-child(2n){
+    color: blue;
+    font-size: 20px;
+}
+table td:nth-child(2n+1){
+    color: orangered;
+    font-size: 30px;
+}
+table th:nth-child(2n+1){
+    font-style: italic;
+}
